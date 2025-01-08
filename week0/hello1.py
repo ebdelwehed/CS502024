@@ -10,9 +10,15 @@
 # and end="\n" with default value \n meaning move to next line , if we don't change that will stay
 #but if we need to not to move next line v
 #exampe of defualt
-print("text")
-print("tex2")
-#example without default
-print("text 1" , end="")
+# print("text")
+# print("tex2")
+# #example without default
+# print("text 1" , end="")
 
-print("text 2")
+# print("text 2")
+#ask user for their name
+ 
+name = input("what's your name ? ")
+name = name.strip()
+#say hello to user
+print(f"hello ,{name}") 
