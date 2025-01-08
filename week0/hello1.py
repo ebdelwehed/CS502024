@@ -18,8 +18,14 @@
 # print("text 2")
 #ask user for their name
  
+# name = input("what's your name ? ")
+# name = name.strip()
+# name = name.capitalize()
+# #say hello to user
+# print(f"hello ,{name}") 
+#asking user for their name
 name = input("what's your name ? ")
-name = name.strip()
-name = name.capitalize()
-#say hello to user
-print(f"hello ,{name}") 
+#spiliting the name
+first_name , last_name = name.split()
+#displaying the split name
+print(f"Hello  {first_name}   {last_name}")
