@@ -20,5 +20,6 @@
  
 name = input("what's your name ? ")
 name = name.strip()
+name = name.capitalize()
 #say hello to user
 print(f"hello ,{name}") 
