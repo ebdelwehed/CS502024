@@ -46,5 +46,3 @@ def print_hello():
     #display hello
     print(f"Hello {name}")
     
-#calling the function print_hello
-print_hello()
