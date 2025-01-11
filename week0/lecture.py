@@ -29,3 +29,21 @@
 # first_name , last_name = name.split(" ")
 # #displaying the split name
 # print(f"Hello  {first_name}   {last_name}")
+
+# def hello(to="Abdul"):
+#     print(f"Hello {to}")
+# name = input("what's your name ? ")
+# hello(name)
+# hello()
+
+# name = "Abdul"
+# age = 38
+
+# # print(f"Hello {name} you are {age} years old")
+# # #using format method
+# print("Hello {} you are {} years old".format(name,age))
+# print("hello world")
+# print("Welcome to python programming")
+# name = "Abdul"
+# print("Hello ",end="\n")
+# print(name )

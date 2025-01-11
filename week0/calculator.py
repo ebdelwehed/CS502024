@@ -41,8 +41,8 @@
 # print((f"{z:.2f}")) 
 
 #defining a function called print_hello
-def print_hello():
-    name = input("What's your name?").strip().capitalize()
-    #display hello
-    print(f"Hello {name}")
+# def print_hello():
+#     name = input("What's your name?").strip().capitalize()
+#     #display hello
+#     print(f"Hello {name}")
     
