@@ -1,13 +1,20 @@
-emoticon  = "v.v"
+#create variable named emoticon
+emoticon = ":)"
 
+#create main function
 def main():
-    say("is anyone there")
+    say("yaa jooga")
+    say("yaa yimid")
+    print(isku_dar(2,3))
     
     
+    
+#create function named say
 def say(phrase):
-    print(phrase + " " + emoticon)
+    print(f"{phrase} {emoticon} !" )
+def isku_dar(b,t):
+    return b + t
 
-if __name__ == "__main__":
-    main()  # this will call the main function
-    
-# with the machine.py file, we can import the file and use the functions in the file
+
+main()
+#call main function
